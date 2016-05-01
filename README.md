@@ -4,12 +4,12 @@ How to use the script
 KissAnime Script
 ----------------
 
-    $.getScript("https://rawgit.com/ParthKolekar/KissStar-LinkDownload/master/kissanime.js");
+    $.getScript("https://raw.githubusercontent.com/AadityaNair/KissStar-LinkDownloader/master/kissanime.js");
 
 KissManga Script
 ----------------
 
-    $.getScript("https://rawgit.com/ParthKolekar/KissStar-LinkDownload/master/kissmanga.js");
+    $.getScript("https://raw.githubusercontent.com/AadityaNair/KissStar-LinkDownloader/master/kissmanga.js");
 
 Description and usage instructions
 ==================================
