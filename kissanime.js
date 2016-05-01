@@ -30,7 +30,7 @@ for (i = episodeLinks.length - 1 ; i >= 0; i--) {
                     for(j = 0; j < downloadQualityOptions.length; j++) {
                         if(videoQuality === downloadQualityOptions[j].html()) {
                             long_url = downloadQualityOptions[j].attr('href');
-                            long_test += "curl -C- -L -o \"" + episodeLinks[i]['name'] + "\".mp4 \"" + long_url + "\" && ";
+                            long_test += "http --download --continue --output= \"" + episodeLinks[i]['name'] + "\".mp4 \"" + long_url + "\" && ";
                         }
                     }
                   },
